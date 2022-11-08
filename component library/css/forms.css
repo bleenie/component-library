@@ -1,0 +1,62 @@
+/* general style */
+input,
+label {
+    height: 40px;
+    margin: 5px;
+    font-size: 16px;
+    font-family: "Reem Kufi Fun", sans-serif;
+    color: rgb(110, 100, 100);
+}
+
+::placeholder {
+    color: rgb(165, 165, 165);
+}
+
+label {
+    vertical-align: middle;
+}
+
+input[type=checkbox] {
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+}
+
+input[type=text] {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+input[type=submit] {
+    width: 150px;
+    color: white;
+    background: #56b488;
+    box-shadow: inset 0px -2px 6px #398562;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.2s;
+}
+
+input[type=submit]:hover {
+
+    background: #398562;
+    box-shadow: inset 0px 1px 5px #24573f;
+}
+
+/* solid background */
+.form-background {
+    background-color: rgb(248, 245, 245);
+    padding: 10px;
+    width: 500px;
+    border-radius: 3px;
+}
+
+/* dashed border */
+.form-border {
+    border: dashed 1px #ddd;
+    padding: 10px;
+    width: 500px;
+    border-radius: 3px;
+}

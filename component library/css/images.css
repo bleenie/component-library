@@ -1,0 +1,13 @@
+/* general style */
+img {
+    max-width: 20%;
+    max-height: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* with shadow */
+.imgshadow {
+    box-shadow: 0px 0px 5px rgb(201, 200, 200);
+}

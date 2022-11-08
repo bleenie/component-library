@@ -1,0 +1,11 @@
+/* general style */
+iframe {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* with shadow */
+.vidshadow {
+    box-shadow: 0px 0px 5px rgb(201, 200, 200);
+}

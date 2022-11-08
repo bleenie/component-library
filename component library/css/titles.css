@@ -1,0 +1,16 @@
+/* big title */
+h3 {
+    font-size: 35px;
+    color: #56b488;
+}
+
+/* medium title */
+h4 {
+    font-size: 30px;
+    color: #6ac99c;
+}
+
+/* small title */
+h5 {
+    font-size: 25px;
+}
